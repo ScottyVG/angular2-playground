@@ -3,7 +3,7 @@
 ## Section 1
 
 ### Introduction
-### Section 1 - Lecture 1
+#### Section 1 - Lecture 1
 - Debugging
 - Setup
 - Data-binding
@@ -19,7 +19,7 @@
 - Pipes
 
 ### What is Angular 2?
-### Section 1 - Lecture 2
+#### Section 1 - Lecture 2
 #### Angular 2 is a Framework for Creating Single Page Applications (SPA)
 ##### Traditional Web Applications
 ```
@@ -44,7 +44,7 @@ svg.com/account { => , <= } Server
 ![alt text](./images/Screen Shot 2016-11-12 at 7.03.31 PM.png)
 
 ### Creating an Angular 2 Project
-### Section 1 - Lecture 3
+#### Section 1 - Lecture 3
 Install angular cli npm module
 ```
 $ sudo npm install -g angular-cli
@@ -57,7 +57,7 @@ $ ng new first-app
 go to browser http://localhost:4200/
 
 ### Got Setup Issues (with Angular 2 CLI)?
-### Section 1 - Lecture 4
+#### Section 1 - Lecture 4
 In this course I'll use the CLI. I **recommend using it** as it makes the creation and management of Angular 2 projects very easy.
 
 The CLI still is in beta and therefore it works for most students but some also experience issues. If you got some issues try these steps (use `sudo`  on Mac and Linux):
@@ -80,11 +80,11 @@ Be aware that you won't be able to use the ng commands (like `ng generate compon
 If you're using this seed because the CLI doesn't work, you may occasionally check for updates of the CLI (explained in section 16 of this course).
 
 ### Editing our First App
-### Section 1 - Lecture 5
+#### Section 1 - Lecture 5
 `first-app/src/app` is where all of the app mainly lives
 
 ### Understanding the Project Structure
-### Section 1 - Lecture 6
+#### Section 1 - Lecture 6
 - e2e folder is used for end to end testing
 - src folder is where you're going to write some code
 - app/shared has shared Components
@@ -101,7 +101,7 @@ If you're using this seed because the CLI doesn't work, you may occasionally che
 - karma.conf.js and protractor.conf.js are used for testing
 
 ### Why TypeScript? What is TypeScript? (w/ Cheat Sheet)
-### Section 1 - Lecture 7
+#### Section 1 - Lecture 7
 - Types
 - Classes
 - Modules
@@ -116,7 +116,7 @@ $ [sudo] npm install typescript -g
 ```
 
 ### Understanding the TypeScript Code
-### Section 1 - Lecture 8
+#### Section 1 - Lecture 8
 
 In case you feel lost with all that TypeScript code - here's a brief article to get you started with it. Note that I have a complete TypeScript module in this course.
 
@@ -172,17 +172,19 @@ A type declaration looks like this:
 
 This makes sure that only string values may be assigned to someProperty.
 
+## Section 2
+
 ### Components, Templates & Data-binding
-### Section 2 - Lecture 9
+#### Section 2 - Lecture 9
 ![alt text](./images/Screen Shot 2016-11-12 at 8.24.58 PM.png)
 
 ### Creating a new Component
-### Section 2 - Lecture 14
+#### Section 2 - Lecture 14
 ```
 $ ng generate component other
 ```
 ### Using multiple Components
-### Section 2 - Lecture 6
+#### Section 2 - Lecture 6
 ```
 $ cd src/app/other
 $ ng g c another
@@ -190,7 +192,7 @@ $ ng g c another --flat -is -it
 ```
 
 ### view Encapsulation & Styling
-### Section 2 - Lecture 18
+#### Section 2 - Lecture 18
 ![alt text](./images/Screen Shot 2016-11-12 at 9.23.55 PM.png)
 ##### The Shdow DOM - not supported in all browsers
 ![alt text](./images/Screen Shot 2016-11-12 at 9.25.24 PM.png)
@@ -198,70 +200,33 @@ $ ng g c another --flat -is -it
 ![alt text](./images/Screen Shot 2016-11-12 at 9.26.45 PM.png)
 
 ### Databinding Overview
-### Section 2 - Lecture 20
+#### Section 2 - Lecture 20
 ![alt text](./images/Screen Shot 2016-11-12 at 9.37.07 PM.png)
 
 
+### Databinding Overview
+#### Section 2 - Lecture 20
 
+### Databinding Overview
+#### Section 2 - Lecture 20
 
+### Databinding Overview
+#### Section 2 - Lecture 20
 
+### Databinding Overview
+#### Section 2 - Lecture 20
 
+### Databinding Overview
+#### Section 2 - Lecture 20
 
+### Databinding Overview
+#### Section 2 - Lecture 20
 
+### Databinding Overview
+#### Section 2 - Lecture 20
 
+### Databinding Overview
+#### Section 2 - Lecture 20
 
-### Components, Templates & Data-binding
-### Section 2 - Lecture 9
-
-### Components, Templates & Data-binding
-### Section 2 - Lecture 9
-### Components, Templates & Data-binding
-### Section 2 - Lecture 9
-
-### Components, Templates & Data-binding
-### Section 2 - Lecture 9
-### Components, Templates & Data-binding
-### Section 2 - Lecture 9
-
-### Components, Templates & Data-binding
-### Section 2 - Lecture 9
-### Components, Templates & Data-binding
-### Section 2 - Lecture 9
-
-### Components, Templates & Data-binding
-### Section 2 - Lecture 9
-### Components, Templates & Data-binding
-### Section 2 - Lecture 9
-
-### Components, Templates & Data-binding
-### Section 2 - Lecture 9
-### Components, Templates & Data-binding
-### Section 2 - Lecture 9
-
-### Components, Templates & Data-binding
-### Section 2 - Lecture 9
-### Components, Templates & Data-binding
-### Section 2 - Lecture 9
-
-### Components, Templates & Data-binding
-### Section 2 - Lecture 9
-### Components, Templates & Data-binding
-### Section 2 - Lecture 9
-
-### Components, Templates & Data-binding
-### Section 2 - Lecture 9
-### Components, Templates & Data-binding
-### Section 2 - Lecture 9
-
-### Components, Templates & Data-binding
-### Section 2 - Lecture 9
-### Components, Templates & Data-binding
-### Section 2 - Lecture 9
-
-### Components, Templates & Data-binding
-### Section 2 - Lecture 9
-### Components, Templates & Data-binding
-### Section 2 - Lecture 9
-
-### Components, Templates & Data-binding
-### Section 2 - Lecture 9
+### Databinding Overview
+#### Section 2 - Lecture 20
