@@ -82,3 +82,186 @@ If you're using this seed because the CLI doesn't work, you may occasionally che
 ### Editing our First App
 ### Section 1 - Lecture 5
 `first-app/src/app` is where all of the app mainly lives
+
+### Understanding the Project Structure
+### Section 1 - Lecture 6
+- e2e folder is used for end to end testing
+- src folder is where you're going to write some code
+- app/shared has shared Components
+- app.component.ts file
+- app.componenent.spec.ts is for unit testing
+- app template in app.component.html
+- app styling in app.component.css
+- app.module.ts bundle to show what parts the angular app has
+- index.ts keeps track of all the other files to make importing easier.
+- environments folder and files stores environmental variables which are needed for the compilation of the app
+- main.ts is what starts the ng Application
+- styles.css is for defining global styles
+- angular-cli.json allows you to configure angular specific files
+- karma.conf.js and protractor.conf.js are used for testing
+
+### Why TypeScript? What is TypeScript? (w/ Cheat Sheet)
+### Section 1 - Lecture 7
+- Types
+- Classes
+- Modules
+- and More!
+
+TypeScript compiles to JS
+![alt text](./images/Screen Shot 2016-11-12 at 8.04.31 PM.png)
+
+##### Install TypeScript
+```
+$ [sudo] npm install typescript -g
+```
+
+### Understanding the TypeScript Code
+### Section 1 - Lecture 8
+
+In case you feel lost with all that TypeScript code - here's a brief article to get you started with it. Note that I have a complete TypeScript module in this course.
+
+You may also come back to this article after the next few videos :).
+
+The important thing first: All files have `.ts` as file extension because we write TypeScript code in these files.
+
+If you never saw TypeScript before it might look strange, but it's actually only JavaScript + extra Features. You can write any JS code in a TypeScript file and it will work!
+```
+import { Component } from '@angular/core';
+@Component({
+    selector: 'app-root',
+    templateUrl: 'app.component.html',
+    styleUrls: ['app.component.css']
+})
+export class AppComponent {
+    title = 'I changed it!';
+}
+```
+##### Imports
+
+First, we import code from another module. In this case, it's an Angular 2 module (as you can tell by the `@angular` ), but that might also be one of our own modules.
+
+Now what is a module? Basically everything you export can be called "a module". You could also simply refer to it as "some code".
+
+One important note here is: No matter if you import some `@angular`  package/ module or code from your own file, you never add the file extension in the import.
+
+For example, an import from your own file would look like this (you'll see this in later videos):
+
+`import { MyOtherComponent } from 'myother.component';`
+
+See? No `.ts`  at the end!
+
+##### Decorators (`@Component` )  
+
+Decorators are basically functions which get attached to other code - in this case to a class. A decorator simply leads to the execution of some code in the background which "does something". Here, the `@Component()`  decorator takes a JavaScript object as an argument and uses this argument to add some metadata (in the background) to this class.
+
+That makes this class a Component which Angular 2 can recognize.
+
+Angular 2 uses Decorators a lot (not only for Components) and you may simply keep in mind that Decorators "do something in the background and transform whatever they are attached to, to something else Angular 2 knows (like a Component)".
+
+##### class
+
+Classes is a feature added by TypeScript which makes the creation of objects easier. You can think of a class as a blueprint for JS objects. Note that you rarely instantiate classes (= create objects based on them) yourself in an Angular 2 app. Most of the time, Angular 2 will do that for you.
+
+##### Types
+
+Something you don't see in the above code, but TypeScript has its name because you can assign Types to properties, variables etc.
+
+A type declaration looks like this:
+
+`someProperty: string = 'Hello';`
+
+This makes sure that only string values may be assigned to someProperty.
+
+### Components, Templates & Data-binding
+### Section 2 - Lecture 9
+![alt text](./images/Screen Shot 2016-11-12 at 8.24.58 PM.png)
+
+### Creating a new Component
+### Section 2 - Lecture 14
+```
+$ ng generate component other
+```
+### Using multiple Components
+### Section 2 - Lecture 6
+```
+$ cd src/app/other
+$ ng g c another
+$ ng g c another --flat -is -it
+```
+
+### view Encapsulation & Styling
+### Section 2 - Lecture 18
+![alt text](./images/Screen Shot 2016-11-12 at 9.23.55 PM.png)
+##### The Shdow DOM - not supported in all browsers
+![alt text](./images/Screen Shot 2016-11-12 at 9.25.24 PM.png)
+##### Angular 2 Emulation
+![alt text](./images/Screen Shot 2016-11-12 at 9.26.45 PM.png)
+
+### Databinding Overview
+### Section 2 - Lecture 20
+![alt text](./images/Screen Shot 2016-11-12 at 9.37.07 PM.png)
+
+
+
+
+
+
+
+
+
+
+### Components, Templates & Data-binding
+### Section 2 - Lecture 9
+
+### Components, Templates & Data-binding
+### Section 2 - Lecture 9
+### Components, Templates & Data-binding
+### Section 2 - Lecture 9
+
+### Components, Templates & Data-binding
+### Section 2 - Lecture 9
+### Components, Templates & Data-binding
+### Section 2 - Lecture 9
+
+### Components, Templates & Data-binding
+### Section 2 - Lecture 9
+### Components, Templates & Data-binding
+### Section 2 - Lecture 9
+
+### Components, Templates & Data-binding
+### Section 2 - Lecture 9
+### Components, Templates & Data-binding
+### Section 2 - Lecture 9
+
+### Components, Templates & Data-binding
+### Section 2 - Lecture 9
+### Components, Templates & Data-binding
+### Section 2 - Lecture 9
+
+### Components, Templates & Data-binding
+### Section 2 - Lecture 9
+### Components, Templates & Data-binding
+### Section 2 - Lecture 9
+
+### Components, Templates & Data-binding
+### Section 2 - Lecture 9
+### Components, Templates & Data-binding
+### Section 2 - Lecture 9
+
+### Components, Templates & Data-binding
+### Section 2 - Lecture 9
+### Components, Templates & Data-binding
+### Section 2 - Lecture 9
+
+### Components, Templates & Data-binding
+### Section 2 - Lecture 9
+### Components, Templates & Data-binding
+### Section 2 - Lecture 9
+
+### Components, Templates & Data-binding
+### Section 2 - Lecture 9
+### Components, Templates & Data-binding
+### Section 2 - Lecture 9
+
+### Components, Templates & Data-binding
+### Section 2 - Lecture 9
